@@ -1,0 +1,82 @@
+today class: conditional statements in python
+
+statement: collection of words which gives meaning is a statement,
+
+
+classifed into three type
+1.banching statements(condition statemets)
+	1.simple if
+		if the conditio is true the statement block will be executed other wise program will be termaneted
+
+sytax:		if(conditon):
+		
+			statement block;
+		
+
+	2.if --- else
+	if the condition is true the statement block will be exectued otherwise else true statement will executed
+		
+		if(condition):
+		
+			true satement block 1;
+		
+		else:
+		
+			true statement block 2;
+		 
+
+	3.if ---- else if
+	if the conditon is true the statement block will be execute otherwise else statement block will be execute in else statement again we hava if condition that condition can be called "else if" if the else if condition is true the statement block will be execute otherwise the else statement block is will be execute
+		
+		if(condition):
+		
+			true satement block 1;
+		
+		elif(condtion):
+		    
+				true satement block 2;
+		    else:
+				true statement block 3; 
+			
+	4.nested if
+ if the condition is true the inner conditon will be check, if the inner condition is ture the statement block will be execute other wise the inner else part will be execute, if outer is condion is false then it will outer else part statement
+		if(condtion):
+		
+			if(condtion):
+			
+				statement block 1;
+			
+			else:
+				statement block 2;
+			
+		else:
+			statement block 3;
+		  
+		
+2.itterative statements(looping statements)
+	we can execute the same operation for  mutiple time is called looping statement
+	while:
+		if the condtion is true the loop statement will execute untill the condition false
+		intialzation;
+		while(condtion):
+			loop statement;
+			increment/decrement;
+
+	// do-while loop
+	
+	for (intialzation;condition;increment/decrement):
+			loop statement
+
+        //for each
+        
+	for in 
+         for varible in varible/[] {}
+
+
+3.unconditional statements(jumping statements)
+	switch
+	break
+	continue
+
+
+

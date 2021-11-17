@@ -1,0 +1,13 @@
+last class:types variables
+ in loca variable we can access the data with in a function(block)
+
+today class: inputstatements and output statements
+input statement is a buli-in-function
+
+input()------>input function: it used to give input at console(allows the user input)
+
+#additon of two number
+a=int(input("enter firs number:"))------> input statement---->read a value
+b=int(input("enter second nuber:"))------>input statement
+result =a+b ------------------------------->calculating 
+print("addition of two numbers=",result)----->output statement----->print a value
